@@ -8,6 +8,8 @@ __pycache__/
 # vscode conf file
 .vscode/
 
+node_modules/
+
 # Distribution / packaging
 .Python
 build/
