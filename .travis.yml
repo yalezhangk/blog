@@ -1,8 +1,8 @@
 language: "node_js"
 node_js:
   - "6"
-cache:
-  npm: false
+# cache:
+  # npm: false
 install:
   - "npm install gitbook"
   - "npm install gitbook-cli@2.3.0"
