@@ -1,6 +1,6 @@
 # Welcome to yalezhang 's blog 😎 
 
-[![Build Status](https://travis-ci.org/yalezhangk/blog.svg?branch=master)](https://travis-ci.org/yalezhangk/blog)
+[![Build Status](https://app.travis-ci.com/yalezhangk/blog.svg?branch=master)](https://app.travis-ci.com/yalezhangk/blog)
 [![Author](https://img.shields.io/badge/Author-yalezhang-orange.svg)]()
 [![Python Versions](https://img.shields.io/badge/python-2.x%2C%203.x-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/lyonyang/blogs/blob/master/LICENSE)
@@ -37,19 +37,19 @@
 .
 ├── Python   
 ├── Database
-├── MySQL          
-├── Front-End   
-│   └── Vue 
-├── Web-Framework
+├── Algorithm     
+├── Git   
+│   └── git 
+├── WebFramework
 │   ├── Django
-│   ├── Django-Rest-Framework
-│   └── Flask
-├── Redis
-├── DesignPattern   
-├── Algorithms     
+│   ├── Flask
+│   └── Tornado
 ├── Linux
-│   └── Git
-└── Read
+├── Docker  
+├── Computer     
+├── Network
+│   └── TCP/IP
+└── Tools
 ```
 
 博客搭建指南 : [GitHub Pages&Gitbook&Travis CI持续构建博客](https://lyonyang.github.io/blogs/09-Linux/Git/GitHub%20Pages&Gitbook&Travis%20CI%E6%8C%81%E7%BB%AD%E6%9E%84%E5%BB%BA%E5%8D%9A%E5%AE%A2.html)
