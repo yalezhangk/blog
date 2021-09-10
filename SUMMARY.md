@@ -8,6 +8,8 @@
 * [WebFramework](04-WebFramework/README.md)
 * [Git](05-Git/README.md)
 * [Linux](06-Linux/README.md)
+  * [linux](06-Linux/01-linux/README.md)
+  * [mac_os](06-Linux/02-mac_os/README.md)
 * [Docker](07-Docker/README.md)
 * [Computer](08-Computer/README.md)
 * [Network](09-Network/README.md)
