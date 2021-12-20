@@ -1,0 +1,759 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>mysql基础 · yalezhang de blog</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="yalezhang">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-toggle-chapters/toggle.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex-toc/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-lightbox/css/lightbox.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="02-mysql45讲.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"repo":"yalezhangk/blog","types":["star"],"size":"small"};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../SUMMARY.html">
+            
+                <a href="../../SUMMARY.html">
+            
+                    
+                    目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../01-Python/">
+            
+                <a href="../../01-Python/">
+            
+                    
+                    Python
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../01-Python/01-Python基础.html">
+            
+                <a href="../../01-Python/01-Python基础.html">
+            
+                    
+                    Python基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Database
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Mysql
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.4.1.1" data-path="01-mysql基础.html">
+            
+                <a href="01-mysql基础.html">
+            
+                    
+                    mysql基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.2" data-path="02-mysql45讲.html">
+            
+                <a href="02-mysql45讲.html">
+            
+                    
+                    mysql45讲
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../03-Algorithm/">
+            
+                <a href="../../03-Algorithm/">
+            
+                    
+                    Algorithm
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../04-WebFramework/">
+            
+                <a href="../../04-WebFramework/">
+            
+                    
+                    WebFramework
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../05-Git/">
+            
+                <a href="../../05-Git/">
+            
+                    
+                    Git
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../../06-Linux/">
+            
+                <a href="../../06-Linux/">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../../06-Linux/01-linux/">
+            
+                <a href="../../06-Linux/01-linux/">
+            
+                    
+                    linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../../06-Linux/02-mac_os/">
+            
+                <a href="../../06-Linux/02-mac_os/">
+            
+                    
+                    mac_os
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../../07-Docker/">
+            
+                <a href="../../07-Docker/">
+            
+                    
+                    Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../../08-Computer/">
+            
+                <a href="../../08-Computer/">
+            
+                    
+                    Computer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../../09-Network/">
+            
+                <a href="../../09-Network/">
+            
+                    
+                    Network
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../../10-Tools/">
+            
+                <a href="../../10-Tools/">
+            
+                    
+                    Tools
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >mysql基础</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#&#x4E00;&#x3001;&#x57FA;&#x672C;&#x547D;&#x4EE4;&#x884C;&#x64CD;&#x4F5C;"><b></b>&#x4E00;&#x3001;&#x57FA;&#x672C;&#x547D;&#x4EE4;&#x884C;&#x64CD;&#x4F5C;</a></li><ul><li><span class="title-icon "></span><a href="#1-&#x57FA;&#x672C;&#x8FDE;&#x63A5;&#x64CD;&#x4F5C;"><b></b>1 &#x57FA;&#x672C;&#x8FDE;&#x63A5;&#x64CD;&#x4F5C;</a></li><ul><li><span class="title-icon "></span><a href="#11-python&#x64CD;&#x4F5C;&#x8FDE;&#x63A5;mysql&#x6570;&#x636E;&#x5E93;&#x683C;&#x5F0F;&#xFF1A;mysql&#x8D26;&#x53F7;&#x5BC6;&#x7801;&#x5730;&#x5740;&#x7AEF;&#x53E3;&#x5E93;&#x540D;"><b></b>1.1 Python&#x64CD;&#x4F5C;&#x8FDE;&#x63A5;Mysql&#x6570;&#x636E;&#x5E93;&#x683C;&#x5F0F;&#xFF1A;mysql://&#x8D26;&#x53F7;:&#x5BC6;&#x7801;@&#x5730;&#x5740;:&#x7AEF;&#x53E3;/&#x5E93;&#x540D;</a></li></ul></ul><li><span class="title-icon "></span><a href="#&#x4E8C;&#x3001;curd&#x64CD;&#x4F5C;"><b></b>&#x4E8C;&#x3001;CURD&#x64CD;&#x4F5C;</a></li><li><span class="title-icon "></span><a href="#&#x4E8C;-&#x6570;&#x636E;&#x5E93;&#x8BBE;&#x8BA1;&#x53CA;&#x5BFC;&#x51FA;&#x5BFC;&#x5165;&#x6570;&#x636E;"><b></b>&#x4E8C; &#x6570;&#x636E;&#x5E93;&#x8BBE;&#x8BA1;&#x53CA;&#x5BFC;&#x51FA;/&#x5BFC;&#x5165;&#x6570;&#x636E;</a></li><li><span class="title-icon "></span><a href="#&#x4E09;-&#x4E3B;&#x952E;&#x3001;&#x5916;&#x952E;"><b></b>&#x4E09; &#x4E3B;&#x952E;&#x3001;&#x5916;&#x952E;</a></li><ul><li><span class="title-icon "></span><a href="#1-&#x4E3B;&#x952E;"><b></b>1 &#x4E3B;&#x952E;</a></li><li><span class="title-icon "></span><a href="#2-&#x5916;&#x952E;"><b></b>2 &#x5916;&#x952E;</a></li><li><span class="title-icon "></span><a href="#3-&#x662F;&#x5426;&#x4F7F;&#x7528;&#x5916;&#x952E;"><b></b>3 &#x662F;&#x5426;&#x4F7F;&#x7528;&#x5916;&#x952E;</a></li></ul><li><span class="title-icon "></span><a href="#&#x56DB;&#x3001;mysql&#x914D;&#x7F6E;&#x6587;&#x4EF6;"><b></b>&#x56DB;&#x3001;mysql&#x914D;&#x7F6E;&#x6587;&#x4EF6;</a></li><li><span class="title-icon "></span><a href="#&#x4E94;&#x3001;sql&#x8FDE;&#x63A5;join&#x67E5;&#x8BE2;"><b></b>&#x4E94;&#x3001;SQL&#x8FDE;&#x63A5;(JOIN)&#x67E5;&#x8BE2;</a></li><ul><li><span class="title-icon "></span><a href="#1-&#x6982;&#x8FF0;"><b></b>1. &#x6982;&#x8FF0;</a></li></ul></ul></div><a href="#&#x4E00;&#x3001;&#x57FA;&#x672C;&#x547D;&#x4EE4;&#x884C;&#x64CD;&#x4F5C;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><p>[toc]</p>
+<h1 id="&#x4E00;&#x3001;&#x57FA;&#x672C;&#x547D;&#x4EE4;&#x884C;&#x64CD;&#x4F5C;"><a name="&#x4E00;&#x3001;&#x57FA;&#x672C;&#x547D;&#x4EE4;&#x884C;&#x64CD;&#x4F5C;" class="anchor-navigation-ex-anchor" href="#&#x4E00;&#x3001;&#x57FA;&#x672C;&#x547D;&#x4EE4;&#x884C;&#x64CD;&#x4F5C;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E00;&#x3001;&#x57FA;&#x672C;&#x547D;&#x4EE4;&#x884C;&#x64CD;&#x4F5C;</h1>
+<h2 id="1-&#x57FA;&#x672C;&#x8FDE;&#x63A5;&#x64CD;&#x4F5C;"><a name="1-&#x57FA;&#x672C;&#x8FDE;&#x63A5;&#x64CD;&#x4F5C;" class="anchor-navigation-ex-anchor" href="#1-&#x57FA;&#x672C;&#x8FDE;&#x63A5;&#x64CD;&#x4F5C;"><i class="fa fa-link" aria-hidden="true"></i></a>1 &#x57FA;&#x672C;&#x8FDE;&#x63A5;&#x64CD;&#x4F5C;</h2>
+<h3 id="11-python&#x64CD;&#x4F5C;&#x8FDE;&#x63A5;mysql&#x6570;&#x636E;&#x5E93;&#x683C;&#x5F0F;&#xFF1A;mysql&#x8D26;&#x53F7;&#x5BC6;&#x7801;&#x5730;&#x5740;&#x7AEF;&#x53E3;&#x5E93;&#x540D;"><a name="11-python&#x64CD;&#x4F5C;&#x8FDE;&#x63A5;mysql&#x6570;&#x636E;&#x5E93;&#x683C;&#x5F0F;&#xFF1A;mysql&#x8D26;&#x53F7;&#x5BC6;&#x7801;&#x5730;&#x5740;&#x7AEF;&#x53E3;&#x5E93;&#x540D;" class="anchor-navigation-ex-anchor" href="#11-python&#x64CD;&#x4F5C;&#x8FDE;&#x63A5;mysql&#x6570;&#x636E;&#x5E93;&#x683C;&#x5F0F;&#xFF1A;mysql&#x8D26;&#x53F7;&#x5BC6;&#x7801;&#x5730;&#x5740;&#x7AEF;&#x53E3;&#x5E93;&#x540D;"><i class="fa fa-link" aria-hidden="true"></i></a>1.1 Python&#x64CD;&#x4F5C;&#x8FDE;&#x63A5;Mysql&#x6570;&#x636E;&#x5E93;&#x683C;&#x5F0F;&#xFF1A;mysql://&#x8D26;&#x53F7;:&#x5BC6;&#x7801;@&#x5730;&#x5740;:&#x7AEF;&#x53E3;/&#x5E93;&#x540D;</h3>
+<h4 id="mysqlrootmysql1270013306zktest"><a name="mysqlrootmysql1270013306zktest" class="anchor-navigation-ex-anchor" href="#mysqlrootmysql1270013306zktest"><i class="fa fa-link" aria-hidden="true"></i></a>mysql://root:mysql@127.0.0.1:3306/zk_test</h4>
+<p>==Mysql &#x5E93;&#x540D;&#x4E0D;&#x80FD;&#x5E26;&#x4E2D;&#x5212;&#x7EBF;&#xFF0C;zk-test&#x4E0D;&#x53EF;==</p>
+<h4 id="12-&#x8868;&#x589E;&#x52A0;&#x5B57;&#x6BB5;"><a name="12-&#x8868;&#x589E;&#x52A0;&#x5B57;&#x6BB5;" class="anchor-navigation-ex-anchor" href="#12-&#x8868;&#x589E;&#x52A0;&#x5B57;&#x6BB5;"><i class="fa fa-link" aria-hidden="true"></i></a>1.2 &#x8868;&#x589E;&#x52A0;&#x5B57;&#x6BB5;</h4>
+<pre><code>duty&#x8868;&#x589E;&#x52A0;&#x4FE9;&#x5B57;&#x6BB5;&#xFF08;&#x4E0D;&#x4E3A;&#x7A7A;&#xFF0C;&#x6709;&#x9ED8;&#x8BA4;&#x503C;tf, &#x52A0;&#x7D22;&#x5F15;&#xFF09;
+ALTER TABLE duty ADD COLUMN depart_name VARCHAR(64) NOT NULL DEFAULT &apos;UnKnow&apos;;
+ALTER TABLE duty ADD INDEX depart_name (depart_name);
+ALTER TABLE duty ADD COLUMN role_name VARCHAR(64) NOT NULL DEFAULT &apos;UnKnow&apos;;
+ALTER TABLE duty ADD INDEX role_name (role_name);
+desc duty;
+show index from duty;
+</code></pre><h4 id="13-&#x53CD;&#x659C;&#x6760;-&#x8F6C;&#x4E49;&#x95EE;&#x9898;"><a name="13-&#x53CD;&#x659C;&#x6760;-&#x8F6C;&#x4E49;&#x95EE;&#x9898;" class="anchor-navigation-ex-anchor" href="#13-&#x53CD;&#x659C;&#x6760;-&#x8F6C;&#x4E49;&#x95EE;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3 &#x53CD;&#x659C;&#x6760;\ &#x8F6C;&#x4E49;&#x95EE;&#x9898;</h4>
+<p>==\&#x5728;SQL = &#x8BED;&#x53E5;&#x548C;like&#x8BED;&#x53E5;&#x4E2D;&#xFF0C;&#x5206;&#x522B;&#x7528;2&#x4E2A;\ &#x548C;4&#x4E2A;\ &#x66FF;&#x6362;&#xFF0C;&#x65B9;&#x53EF;&#x751F;&#x6548;==&#x3002;</p>
+<pre><code># SQL&#x5E93;&#x4E2D;&#x5B58;&#x5728;&#x7684;&#x6570;&#x636E;&#xFF1A;&#x592E;&#x89C6;&#x5F71;&#x97F3;&#x4E8B;&#x4E1A;&#x7FA4;\&#x592E;&#x89C6;&#x5F71;&#x97F3;&#x5F00;&#x53D1;&#x8FD0;&#x8425;&#x4E2D;&#x5FC3;
+# &#x5B9E;&#x9645;SQL&#x64CD;&#x4F5C;&#xFF1A;select * from duty where depart_name = &apos;&#x592E;&#x89C6;&#x5F71;&#x97F3;&#x4E8B;&#x4E1A;&#x7FA4;\\&#x592E;&#x89C6;&#x5F71;&#x97F3;&#x5F00;&#x53D1;&#x8FD0;&#x8425;&#x4E2D;&#x5FC3;&apos;;
+# like&#x8BED;&#x53E5;&#xFF1A;select * from duty where depart_name like &apos;%&#x592E;&#x89C6;&#x5F71;&#x97F3;&#x4E8B;&#x4E1A;&#x7FA4;\\\\&#x592E;&#x89C6;&#x5F71;&#x97F3;&#x5F00;&#x53D1;&#x8FD0;&#x8425;&#x4E2D;&#x5FC3;%&apos;;
+</code></pre><ol>
+<li>==mysql -uroot -p&#x5BC6;&#x7801; -P&#x7AEF;&#x53E3; -hIP -D&#x6570;&#x636E;&#x5E93;&#x540D;  -&#x300B;&#x8FDE;&#x63A5;&#x6570;&#x636E;&#x5E93;==</li>
+<li>mysql -u root -p mysql &#x8FDE;&#x63A5;&#x6570;&#x636E;&#x5E93;</li>
+<li>select version(); &#x67E5;&#x770B;&#x7248;&#x672C;</li>
+<li>show databases; &#x67E5;&#x770B;&#x6240;&#x6709;&#x5E93;</li>
+<li>use &#x5E93;&#x540D;; &#x4F7F;&#x7528;&#x6570;&#x636E;&#x5E93;</li>
+<li>==select database(); &#x67E5;&#x770B;&#x5F53;&#x524D;&#x4F7F;&#x7528;&#x7684;&#x5E93;&#x540D;==</li>
+<li>create database &#x6570;&#x636E;&#x5E93;&#x540D; charset=utf8; &#x521B;&#x5EFA;&#x6570;&#x636E;&#x5E93;</li>
+<li>drop database &#x5E93;&#x540D;; &#x5220;&#x9664;&#x5E93;</li>
+<li>==show tables; &#x67E5;&#x770B;&#x6240;&#x6709;&#x8868;==</li>
+<li>desc &#x8868;&#x540D;; &#x67E5;&#x770B;&#x8868;&#x7ED3;&#x6784;</li>
+<li>create table &#x8868;&#x540D; (&#x5B57;&#x6BB5;&#x4ECB;&#x7ECD;); &#x521B;&#x5EFA;&#x8868;</li>
+<li>alter table &#x8868;&#x540D; add &#x5217;&#x540D; &#x7C7B;&#x578B;; &#x4FEE;&#x6539;&#x8868;&#xFF0C;&#x65B0;&#x589E;&#x5B57;&#x6BB5;</li>
+<li>alter table &#x8868;&#x540D; drop &#x5217;&#x540D;; &#x5220;&#x9664;&#x5B57;&#x6BB5;</li>
+<li>drop table &#x8868;&#x540D;; &#x5220;&#x9664;<h4 id="14-&#x5EFA;&#x5E93;&#x3001;&#x8868;&#x3001;&#x63D2;&#x6570;&#x636E;"><a name="14-&#x5EFA;&#x5E93;&#x3001;&#x8868;&#x3001;&#x63D2;&#x6570;&#x636E;" class="anchor-navigation-ex-anchor" href="#14-&#x5EFA;&#x5E93;&#x3001;&#x8868;&#x3001;&#x63D2;&#x6570;&#x636E;"><i class="fa fa-link" aria-hidden="true"></i></a>1.4 &#x5EFA;&#x5E93;&#x3001;&#x8868;&#x3001;&#x63D2;&#x6570;&#x636E;</h4>
+</li>
+</ol>
+<pre><code>create database db_zk charset=utf8;  # &#x5EFA;&#x5E93;db_zk
+SET NAMES utf8;  # &#x8BBE;&#x7F6E;&#x7F16;&#x7801;&#x683C;&#x5F0F;
+SET FOREIGN_KEY_CHECKS=0;  # &#x53BB;&#x9664;&#x5916;&#x952E;&#x5173;&#x7CFB;&#x68C0;&#x67E5;(&#x8868;&#x64CD;&#x4F5C;&#x5B8C;&#x540E;&#x8BB0;&#x5F97;&#x4FEE;&#x6539;&#x8FC7;&#x6765;)
+DROP TABLE IF EXISTS `student`;
+CREATE TABLE `student` (
+  `sid` int(11) NOT NULL AUTO_INCREMENT,
+  `gender` char(1) NOT NULL,
+  `class_id` int(11) NOT NULL,
+  `sname` varchar(32) NOT NULL,
+  PRIMARY KEY (`sid`),
+  KEY `fk_class` (`class_id`),
+  CONSTRAINT `fk_class` FOREIGN KEY (`class_id`) REFERENCES `class` (`cid`)
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8;
+BEGIN;  # &#x63D2;&#x5165;&#x6570;&#x636E;
+INSERT INTO `student` VALUES (&apos;1&apos;, &apos;&#x7537;&apos;, &apos;1&apos;, &apos;&#x7406;&#x89E3;&apos;), (&apos;2&apos;, &apos;&#x5973;&apos;, &apos;1&apos;, &apos;&#x94A2;&#x86CB;&apos;);
+COMMIT;
+SET FOREIGN_KEY_CHECKS=0;  # &#x6539;&#x8FC7;&#x6765;&#x5916;&#x952E;&#x4F9D;&#x8D56;
+# &#x67E5;&#x8BE2;&#x7B14;&#x8BB0;
+if(isnull(number),0,ty)  # &#x5B57;&#x6BB5;&#x4E3A;&#x7A7A;&#x65F6;
+</code></pre><h1 id="&#x4E8C;&#x3001;curd&#x64CD;&#x4F5C;"><a name="&#x4E8C;&#x3001;curd&#x64CD;&#x4F5C;" class="anchor-navigation-ex-anchor" href="#&#x4E8C;&#x3001;curd&#x64CD;&#x4F5C;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E8C;&#x3001;CURD&#x64CD;&#x4F5C;</h1>
+<h3 id="21-&#x589E;&#x52A0;"><a name="21-&#x589E;&#x52A0;" class="anchor-navigation-ex-anchor" href="#21-&#x589E;&#x52A0;"><i class="fa fa-link" aria-hidden="true"></i></a>2.1 &#x589E;&#x52A0;</h3>
+<ol>
+<li>insert into students(name,hometown,birthday) values(&apos;&#x9EC4;&#x84C9;&apos;,&apos;&#x6843;&#x82B1;&#x5C9B;&apos;,&apos;2016-3-2&apos;);<h3 id="22-&#x4FEE;&#x6539;"><a name="22-&#x4FEE;&#x6539;" class="anchor-navigation-ex-anchor" href="#22-&#x4FEE;&#x6539;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2 &#x4FEE;&#x6539;</h3>
+</li>
+<li>update &#x8868;&#x540D; set &#x5217;1=&#x503C;1,&#x5217;2=&#x503C;2... where &#x6761;&#x4EF6;;</li>
+<li>==&#x6279;&#x91CF;&#x66F4;&#x65B0;&#x6570;&#x636E;&#xFF1A;update table set &#x66F4;&#x65B0;&#x5B57;&#x6BB5; = case &#x4F9D;&#x636E;&#x5B57;&#x6BB5; when &#x6761;&#x4EF6; then &#x66F4;&#x65B0;&#x503C; end where &#x6761;&#x4EF6;&#xFF1B;==<pre><code># &#x66F4;&#x65B0;duty&#x8868;&#xFF1A;&#x82E5;role:&#x56DB;&#x7EBF;&#x503C;&#x73ED; &#x300B; &#x5219;role_name:LEVEL4
+UPDATE duty
+SET role_name = CASE role
+ WHEN &apos;&#x56DB;&#x7EBF;&#x503C;&#x73ED;&apos; THEN &apos;LEVEL4&apos;
+ WHEN &apos;&#x4E09;&#x7EBF;&#x503C;&#x73ED;&apos; THEN &apos;LEVEL3&apos;
+ WHEN &apos;2.5&#x7EBF;&#x503C;&#x73ED;&apos; THEN &apos;LEVEL2.5&apos;
+ WHEN &apos;&#x4E8C;&#x7EBF;&#x503C;&#x73ED;&apos; THEN &apos;LEVEL2&apos;
+ WHEN &apos;&#x4E00;&#x7EBF;&#x503C;&#x73ED;&apos; THEN &apos;LEVEL1&apos;
+ WHEN &apos;&#x9875;&#x9762;&#x503C;&#x73ED;&apos; THEN &apos;LEVEY&apos;
+END
+WHERE role IN (&apos;&#x56DB;&#x7EBF;&#x503C;&#x73ED;&apos;,&apos;&#x4E09;&#x7EBF;&#x503C;&#x73ED;&apos;,&apos;2.5&#x7EBF;&#x503C;&#x73ED;&apos;,&apos;&#x4E8C;&#x7EBF;&#x503C;&#x73ED;&apos;,&apos;&#x4E00;&#x7EBF;&#x503C;&#x73ED;&apos;,&apos;&#x9875;&#x9762;&#x503C;&#x73ED;&apos;) AND duty_time &gt; &apos;2019-01-01&apos;;
+</code></pre><h3 id="23-&#x5220;&#x9664;"><a name="23-&#x5220;&#x9664;" class="anchor-navigation-ex-anchor" href="#23-&#x5220;&#x9664;"><i class="fa fa-link" aria-hidden="true"></i></a>2.3 &#x5220;&#x9664;</h3>
+</li>
+<li>delete from &#x8868;&#x540D; where &#x6761;&#x4EF6;</li>
+<li>==&#x5B8C;&#x6574;&#x7684;select&#x8BED;&#x53E5;==<pre><code>select distinct *
+from &#x8868;&#x540D;
+where ....
+group by ... having ...
+order by ...
+limit start,count
+</code></pre><h3 id="24-&#x67E5;&#x8BE2;"><a name="24-&#x67E5;&#x8BE2;" class="anchor-navigation-ex-anchor" href="#24-&#x67E5;&#x8BE2;"><i class="fa fa-link" aria-hidden="true"></i></a>2.4 &#x67E5;&#x8BE2;</h3>
+</li>
+<li>select * from &#x8868;&#x540D;; &#x67E5;&#x8BE2;&#x6240;&#x6709;&#x5217;</li>
+<li>select id,name from &#x8868;&#x540D;; &#x67E5;&#x8BE2;&#x6307;&#x5B9A;&#x5217;</li>
+<li>==as &#x522B;&#x540D;==&#x7684;&#x4F7F;&#x7528;</li>
+<li>select id as &#x522B;&#x540D; from &#x8868;&#x540D;; &#x8D77;&#x522B;&#x540D;</li>
+<li>==distinct &#x6D88;&#x9664;&#x91CD;&#x590D;&#x7684;&#x884C;==</li>
+<li>select distinct name from author;</li>
+<li>==where &#x6761;&#x4EF6;&#x67E5;&#x8BE2;==</li>
+<li>select * from students where name != &apos;&#x9EC4;&#x84C9;&apos;;</li>
+<li>select * from students where name like &apos;&#x9EC4;%&apos;; &#x67E5;&#x8BE2;&#x59D3;&#x9EC4;&#x7684;&#x5B66;&#x751F;</li>
+<li>==&#x8303;&#x56F4;&#x67E5;&#x8BE2; in&#x8868;&#x793A;&#x5B58;&#x5728;&#x7684;&#xFF0C;between ... and ...&#x8868;&#x793A;&#x5728;&#x8FDE;&#x7EED;&#x7684;&#x8303;&#x56F4;&#x5185;==</li>
+<li>select * from students where id in (1,3,8); &#x67E5;&#x8BE2;id&#x662F;1&#x6216;3&#x6216;8&#x7684;&#x5B66;&#x751F;</li>
+<li>select * from students where id between 3 and 8; &#x67E5;&#x8BE2;id&#x5728;3~8&#x4E4B;&#x95F4;&#x7684;&#x5B66;&#x751F;</li>
+<li>==select * from table1 order by id desc limit 10;&#x67E5;&#x8BE2;&#x5012;&#x6570;&#x540E;10&#x6761;&#x6570;&#x636E;==</li>
+<li>==select * from <code>clog</code> order by rand() limit 10; &#x968F;&#x673A;&#x83B7;&#x53D6;10&#x6761;&#x6570;&#x636E;==<h4 id="&#x5B8C;&#x6574;&#x7684;&#x67E5;&#x8BE2;"><a name="&#x5B8C;&#x6574;&#x7684;&#x67E5;&#x8BE2;" class="anchor-navigation-ex-anchor" href="#&#x5B8C;&#x6574;&#x7684;&#x67E5;&#x8BE2;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5B8C;&#x6574;&#x7684;&#x67E5;&#x8BE2;</h4>
+<pre><code>select distinct *
+from &#x8868;&#x540D;
+where ....
+group by ... having ...
+order by ...
+limit start,count
+</code></pre><h5 id="11-&#x6392;&#x5E8F;-order-by"><a name="11-&#x6392;&#x5E8F;-order-by" class="anchor-navigation-ex-anchor" href="#11-&#x6392;&#x5E8F;-order-by"><i class="fa fa-link" aria-hidden="true"></i></a>1.1 &#x6392;&#x5E8F; order by</h5>
+</li>
+<li>desc &#x964D;&#x5E8F;&#xFF1B;asc &#x5347;&#x5E8F;&#xFF0C;&#x9ED8;&#x8BA4;&#x5347;&#x5E8F;</li>
+<li>select * from students
+where gender=1 and isdelete=0
+order by id desc; &#x67E5;&#x8BE2;&#x672A;&#x5220;&#x9664;&#x7537;&#x751F;&#x4FE1;&#x606F;&#xFF0C;&#x6309;&#x5B66;&#x53F7;&#x964D;&#x5E8F;<h5 id="12-&#x805A;&#x5408;&#x51FD;&#x6570;"><a name="12-&#x805A;&#x5408;&#x51FD;&#x6570;" class="anchor-navigation-ex-anchor" href="#12-&#x805A;&#x5408;&#x51FD;&#x6570;"><i class="fa fa-link" aria-hidden="true"></i></a>1.2 &#x805A;&#x5408;&#x51FD;&#x6570;</h5>
+</li>
+<li>==count(*&#x6216;&#x5217;&#x540D;) &#x7EDF;&#x8BA1;&#x6570;&#x91CF;==</li>
+<li>max(&#x5217;&#x540D;) &#x6B64;&#x5217;&#x6700;&#x5927;&#x503C;</li>
+<li>min(&#x5217;&#x540D;) &#x6B64;&#x5217;&#x6700;&#x5C0F;&#x503C;</li>
+<li>sum(&#x5217;&#x540D;) &#x6B64;&#x5217;&#x6C42;&#x548C;</li>
+<li>avg(&#x5217;&#x540D;) &#x6C42;&#x6B64;&#x5217;&#x5E73;&#x5747;&#x503C;</li>
+<li>==&#x805A;&#x5408;&#x51FD;&#x6570;&#x4E0D;&#x53EF;&#x7528;&#x4E8E;where&#x8BED;&#x53E5;&#x4E2D;&#xFF0C;&#x53EF;&#x7528;&#x4E8E;having&#x8BED;&#x53E5;&#x4E2D;==<h5 id="13-&#x5206;&#x7EC4;-group-by"><a name="13-&#x5206;&#x7EC4;-group-by" class="anchor-navigation-ex-anchor" href="#13-&#x5206;&#x7EC4;-group-by"><i class="fa fa-link" aria-hidden="true"></i></a>1.3 &#x5206;&#x7EC4; group by</h5>
+</li>
+<li>select age as &#x5E74;&#x9F84;,count(*) as &#x6570;&#x91CF; from students group by age; &#x67E5;&#x8BE2;&#x5404;&#x79CD;&#x5E74;&#x9F84;&#x7684;&#x4EBA;&#x6570;</li>
+<li>==where==&#x662F;&#x5BF9;from&#x540E;&#x9762;&#x6307;&#x5B9A;&#x7684;&#x8868;&#x8FDB;&#x884C;&#x6570;&#x636E;&#x7B5B;&#x9009;&#xFF0C;&#x5C5E;&#x4E8E;&#x5BF9;&#x539F;&#x59CB;&#x6570;&#x636E;&#x7684;&#x7B5B;&#x9009;&#xFF0C;
+==having&#x662F;&#x5BF9;group by&#x7684;&#x7ED3;&#x679C;&#x8FDB;&#x884C;&#x7B5B;&#x9009;==</li>
+<li>==&#x3010;HAVING&#x4E0E;WHERE&#x7684;&#x533A;&#x522B;&#x3011;==&#xFF1A;</li>
+<li>==where&#x5728;&#x5206;&#x7EC4;&#x4E4B;&#x524D;&#x8FC7;&#x6EE4;&#x6570;&#x636E;&#xFF0C;where&#x6761;&#x4EF6;&#x4E2D;&#x4E0D;&#x80FD;&#x5305;&#x542B;&#x805A;&#x7EC4;&#x51FD;&#x6570;&#x3002;==</li>
+<li>==having&#x5728;&#x5206;&#x7EC4;&#x540E;&#x8FC7;&#x6EE4;&#x6570;&#x636E;&#xFF0C;&#x6761;&#x4EF6;&#x4E2D;&#x7ECF;&#x5E38;&#x5305;&#x542B;&#x805A;&#x7EC4;&#x51FD;&#x6570;==</li>
+</ol>
+<pre><code>1. where &#x5B50;&#x53E5;&#x7684;&#x4F5C;&#x7528;&#xFF1A;&#x5728;&#x5BF9;&#x67E5;&#x8BE2;&#x7ED3;&#x679C;&#x8FDB;&#x884C;&#x5206;&#x7EC4;&#x524D;&#xFF0C;&#x628A;&#x4E0D;&#x7B26;&#x5408;where&#x6761;&#x4EF6;&#x7684;&#x884C;&#x53BB;&#x6389;&#xFF0C;&#x5373;&#x5728;&#x5206;&#x7EC4;&#x4E4B;&#x524D;&#x8FC7;&#x6EE4;&#x6570;&#x636E;&#x3002;&#x53E6;&#x5916;&#xFF0C;where&#x6761;&#x4EF6;&#x4E2D;&#x4E0D;&#x80FD;&#x5305;&#x542B;&#x805A;&#x7EC4;&#x51FD;&#x6570;&#x3002;
+2. having &#x5B50;&#x53E5;&#x7684;&#x4F5C;&#x7528;&#xFF1A;&#x7B5B;&#x9009;&#x6EE1;&#x8DB3;&#x6761;&#x4EF6;&#x7684;&#x7EC4;&#xFF0C;&#x5373;&#x5728;&#x5206;&#x7EC4;&#x540E;&#x8FC7;&#x6EE4;&#x6570;&#x636E;&#xFF0C;&#x6761;&#x4EF6;&#x4E2D;&#x7ECF;&#x5E38;&#x5305;&#x542B;&#x805A;&#x7EC4;&#x51FD;&#x6570;&#xFF0C;&#x4F7F;&#x7528; having &#x6761;&#x4EF6;&#x8FC7;&#x6EE4;&#x51FA;&#x7279;&#x5B9A;&#x7684;&#x7EC4;
+</code></pre><pre><code># &#x67E5;&#x8BE2;&#xFF1A;&#x5E73;&#x5747;&#x6210;&#x7EE9;&#x5927;&#x4E8E;60&#x5206;&#x7684;&#x540C;&#x5B66;&#x7684;&#x5B66;&#x53F7;&#x548C;&#x5E73;&#x5747;&#x6210;&#x7EE9;&#xFF1B;
+# &#x601D;&#x8DEF;&#xFF1A;&#x6839;&#x636E;&#x5B66;&#x751F;&#x5206;&#x7EC4;&#xFF0C;&#x4F7F;&#x7528;avg&#x83B7;&#x53D6;&#x5E73;&#x5747;&#x503C;&#xFF0C;&#x901A;&#x8FC7;having&#x5BF9;avg&#x8FDB;&#x884C;&#x7B5B;&#x9009;
+select student_id,avg(num) from score group by student_id having avg(num) &gt; 60;
+</code></pre><h5 id="14-&#x5206;&#x9875;-limit-startcount"><a name="14-&#x5206;&#x9875;-limit-startcount" class="anchor-navigation-ex-anchor" href="#14-&#x5206;&#x9875;-limit-startcount"><i class="fa fa-link" aria-hidden="true"></i></a>1.4 &#x5206;&#x9875; limit start,count</h5>
+<ol>
+<li>select * from students where gender=1 limit 0,3; &#x67E5;&#x8BE2;&#x524D;3&#x884C;&#x7537;&#x751F;&#x4FE1;&#x606F;</li>
+<li>==&#x4ECE;start&#x7D22;&#x5F15;&#x5F00;&#x59CB;&#xFF0C;&#x83B7;&#x53D6;count&#x6761;&#x6570;&#x636E;&#x3002;==
+==start&#x7D22;&#x5F15;&#x4ECE;0&#x5F00;&#x59CB;&#xFF0C;&#x800C;id&#x662F;&#x4ECE;1&#x5F00;&#x59CB;&#x7684;==</li>
+<li>==&#x6240;&#x4EE5;&#xFF0C;&#x83B7;&#x53D6;&#x7B2C;10-12&#x6761;&#x6570;&#x636E;&#xFF0C;&#x5E94;&#x8BE5;&#x662F;limit9,3==</li>
+</ol>
+<pre><code>&#x4F8B;1&#xFF0C;&#x5047;&#x8BBE;&#x6570;&#x636E;&#x5E93;&#x8868;student&#x5B58;&#x5728;13&#x6761;&#x6570;&#x636E;&#x3002;
+&#x4EE3;&#x7801;&#x793A;&#x4F8B;:
+&#x8BED;&#x53E5;1&#xFF1A;select * from student limit 9,4
+&#x8BED;&#x53E5;2&#xFF1A;slect * from student limit 4 offset 9
+// &#x8BED;&#x53E5;1&#x548C;2&#x5747;&#x8FD4;&#x56DE;&#x8868;student&#x7684;&#x7B2C;10&#x3001;11&#x3001;12&#x3001;13&#x884C; 
+//&#x8BED;&#x53E5;2&#x4E2D;&#x7684;4&#x8868;&#x793A;&#x8FD4;&#x56DE;4&#x884C;&#xFF0C;9&#x8868;&#x793A;&#x4ECE;&#x8868;&#x7684;&#x7B2C;&#x5341;&#x884C;&#x5F00;&#x59CB;
+</code></pre><h5 id="15-&#x8FDE;&#x63A5;&#x67E5;&#x8BE2;"><a name="15-&#x8FDE;&#x63A5;&#x67E5;&#x8BE2;" class="anchor-navigation-ex-anchor" href="#15-&#x8FDE;&#x63A5;&#x67E5;&#x8BE2;"><i class="fa fa-link" aria-hidden="true"></i></a>1.5 &#x8FDE;&#x63A5;&#x67E5;&#x8BE2;</h5>
+<ol>
+<li>==select * from &#x8868;1
+inner&#x6216;left&#x6216;right join &#x8868;2 on &#x8868;1.&#x5217;=&#x8868;2.&#x5217;==</li>
+<li>select * from students inner join pythons on students.cls_id = pythons.id; &#x67E5;&#x8BE2;&#x73ED;&#x7EA7;&#x8868;&#x4E0E;&#x5B66;&#x751F;&#x8868;<h5 id="16-&#x81EA;&#x5173;&#x8054;"><a name="16-&#x81EA;&#x5173;&#x8054;" class="anchor-navigation-ex-anchor" href="#16-&#x81EA;&#x5173;&#x8054;"><i class="fa fa-link" aria-hidden="true"></i></a>1.6 &#x81EA;&#x5173;&#x8054;</h5>
+</li>
+<li>&#x4F8B;&#x5982;&#x7701;&#x3001;&#x5E02;&#x3001;&#x53BF;&#x8868;&#xFF0C;&#x7ED3;&#x6784;&#x7C7B;&#x4F3C;&#xFF0C;&#x4E14;&#x81EA;&#x4E0A;&#x5230;&#x4E0B;&#x662F;&#x4E00;&#x5BF9;&#x591A;&#xFF0C;&#x53EF;&#x4EE5;&#x5B9A;&#x4E49;&#x4E00;&#x5F20;&#x8868;&#x6765;&#x5B58;&#x50A8;&#xFF1B;</li>
+<li>==&#x81EA;&#x5173;&#x8054;&#xFF0C;&#x8868;&#x4E2D;&#x7684;&#x67D0;&#x4E00;&#x5217;&#xFF0C;&#x5173;&#x8054;&#x4E86;&#x8FD9;&#x4E2A;&#x8868;&#x4E2D;&#x7684;&#x53E6;&#x5916;&#x4E00;&#x5217;&#xFF0C;&#x4F46;&#x662F;&#x5B83;&#x4EEC;&#x7684;&#x4E1A;&#x52A1;&#x903B;
+&#x8F91;&#x542B;&#x4E49;&#x662F;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#xFF0C;&#x57CE;&#x5E02;&#x4FE1;&#x606F;&#x7684;pid&#x5F15;&#x7528;&#x7684;&#x662F;&#x7701;&#x4FE1;&#x606F;&#x7684;id==<pre><code>&#x5B9A;&#x4E49;&#x8868;areas&#xFF0C;&#x7ED3;&#x6784;&#x5982;&#x4E0B;
+id
+atitle
+pid
+# &#x56E0;&#x4E3A;&#x7701;&#x6CA1;&#x6709;&#x6240;&#x5C5E;&#x7684;&#x7701;&#x4EFD;&#xFF0C;&#x6240;&#x4EE5;&#x53EF;&#x4EE5;&#x586B;&#x5199;&#x4E3A;null
+# &#x57CE;&#x5E02;&#x6240;&#x5C5E;&#x7684;&#x7701;&#x4EFD;pid&#xFF0C;&#x586B;&#x5199;&#x7701;&#x6240;&#x5BF9;&#x5E94;&#x7684;&#x7F16;&#x53F7;id
+&#x81EA;&#x5173;&#x8054;&#xFF0C;&#x8868;&#x4E2D;&#x7684;&#x67D0;&#x4E00;&#x5217;&#xFF0C;&#x5173;&#x8054;&#x4E86;&#x8FD9;&#x4E2A;&#x8868;&#x4E2D;&#x7684;&#x53E6;&#x5916;&#x4E00;&#x5217;&#xFF0C;&#x4F46;&#x662F;&#x5B83;&#x4EEC;&#x7684;&#x4E1A;&#x52A1;&#x903B;
+&#x8F91;&#x542B;&#x4E49;&#x662F;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#xFF0C;&#x57CE;&#x5E02;&#x4FE1;&#x606F;&#x7684;pid&#x5F15;&#x7528;&#x7684;&#x662F;&#x7701;&#x4FE1;&#x606F;&#x7684;id
+# &#x67E5;&#x8BE2;&#x7701;&#x7684;&#x540D;&#x79F0;&#x4E3A;&#x201C;&#x6CB3;&#x5357;&#x7701;&#x201D;&#x7684;&#x6240;&#x6709;&#x57CE;&#x5E02;
+select city.* from areas as city
+inner join areas as province on city.pid=province.id
+where province.atitle=&apos;&#x6CB3;&#x5357;&#x7701;&apos;;
+</code></pre><h5 id="17-&#x5B50;&#x67E5;&#x8BE2;"><a name="17-&#x5B50;&#x67E5;&#x8BE2;" class="anchor-navigation-ex-anchor" href="#17-&#x5B50;&#x67E5;&#x8BE2;"><i class="fa fa-link" aria-hidden="true"></i></a>1.7 &#x5B50;&#x67E5;&#x8BE2;</h5>
+</li>
+<li>&#x5728;&#x4E00;&#x4E2A; select &#x8BED;&#x53E5;&#x4E2D;,&#x5D4C;&#x5957;&#x4E86;&#x53E6;&#x5916;&#x4E00;&#x4E2A;select &#x8BED;&#x53E5;, &#x90A3;&#x4E48;&#x88AB;&#x5D4C;&#x5957;&#x7684;select &#x8BED;&#x53E5;&#x79F0;&#x4E4B;
+&#x4E3A;&#x5B50;&#x67E5;&#x8BE2;&#x8BED;&#x53E5;<h5 id="18-&#x6A21;&#x7CCA;&#x67E5;&#x8BE2;"><a name="18-&#x6A21;&#x7CCA;&#x67E5;&#x8BE2;" class="anchor-navigation-ex-anchor" href="#18-&#x6A21;&#x7CCA;&#x67E5;&#x8BE2;"><i class="fa fa-link" aria-hidden="true"></i></a>1.8 &#x6A21;&#x7CCA;&#x67E5;&#x8BE2;</h5>
+</li>
+<li>==like==</li>
+<li>==%&#x8868;&#x793A;&#x4EFB;&#x610F;&#x591A;&#x4E2A;&#x4EFB;&#x610F;&#x5B57;&#x7B26;==</li>
+<li><p>==_&#x8868;&#x793A;&#x4E00;&#x4E2A;&#x4EFB;&#x610F;&#x5B57;&#x7B26;==</p>
+</li>
+<li><p>select * from students where name like &apos;&#x9EC4;_&apos;; &#x67E5;&#x8BE2;&#x59D3;&#x9EC4;&#x5E76;&#x4E14;&#x540D;&#x5B57;&#x662F;&#x4E00;&#x4E2A;&#x5B57;&#x7684;&#x5B66;&#x751F;&#x3002;</p>
+<h1 id="&#x4E8C;-&#x6570;&#x636E;&#x5E93;&#x8BBE;&#x8BA1;&#x53CA;&#x5BFC;&#x51FA;&#x5BFC;&#x5165;&#x6570;&#x636E;"><a name="&#x4E8C;-&#x6570;&#x636E;&#x5E93;&#x8BBE;&#x8BA1;&#x53CA;&#x5BFC;&#x51FA;&#x5BFC;&#x5165;&#x6570;&#x636E;" class="anchor-navigation-ex-anchor" href="#&#x4E8C;-&#x6570;&#x636E;&#x5E93;&#x8BBE;&#x8BA1;&#x53CA;&#x5BFC;&#x51FA;&#x5BFC;&#x5165;&#x6570;&#x636E;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E8C; &#x6570;&#x636E;&#x5E93;&#x8BBE;&#x8BA1;&#x53CA;&#x5BFC;&#x51FA;/&#x5BFC;&#x5165;&#x6570;&#x636E;</h1>
+</li>
+<li>==&#x9075;&#x5FAA;&#x4E09;&#x8303;&#x5F0F;==</li>
+<li>&#x7B2C;&#x4E00;&#x8303;&#x5F0F;&#xFF1A;==&#x5217;&#x7684;&#x539F;&#x5B50;&#x6027;&#xFF0C;&#x5217;&#x4E0D;&#x53EF;&#x518D;&#x62C6;&#x5206;==</li>
+<li>&#x7B2C;&#x4E8C;&#x8303;&#x5F0F;&#xFF1A;==&#x5FC5;&#x987B;&#x6709;&#x4E00;&#x4E2A;&#x4E3B;&#x952E;&#xFF0C;&#x975E;&#x4E3B;&#x5C5E;&#x6027;&#xFF08;&#x5217;&#xFF09;&#x4F9D;&#x8D56;&#x4E3B;&#x952E;==</li>
+<li>&#x7B2C;&#x4E09;&#x8303;&#x5F0F;&#xFF1A;==&#x975E;&#x4E3B;&#x5C5E;&#x6027;&#xFF08;&#x5217;&#xFF09;&#x4E0D;&#x4F9D;&#x8D56;&#x4E8E;&#x5176;&#x4ED6;&#x975E;&#x4E3B;&#x5C5E;&#x6027;==</li>
+<li>&#x5F53;&#x4E00;&#x4E2A;&#x8868;&#x4E2D;&#x7684;&#x5217;&#x592A;&#x591A;&#x65F6;&#xFF0C;&#x5E76;&#x4E14;&#x67D0;&#x4E9B;&#x5217;&#x4E0D;&#x7ECF;&#x5E38;&#x51FA;&#x73B0;&#x5728;&#x7ED3;&#x679C;&#x4E2D;&#xFF0C;==&#x53EF;&#x4EE5;&#x5BF9;&#x5217;&#x4E2D;&#x7684;&#x5217;&#x8FDB;&#x884C;&#x62C6;&#x5206;==&#xFF0C;&#x5206;&#x4E3A;&#x4E24;&#x4E2A;&#x8868;&#xFF0C;&#x4E00;&#x5BF9;&#x4E00;&#x3002;</li>
+<li>==&#x5BFC;&#x51FA;&#xFF1A;mysqldump, &#x5BFC;&#x51FA;&#x6570;&#x636E;&#x53CA;&#x8868;&#x7ED3;&#x6784;&#xFF1A;mysqldump -u&#x7528;&#x6237;&#x540D; -p&#x5BC6;&#x7801; &#x6570;&#x636E;&#x5E93;&#x540D; &gt; &#x6570;&#x636E;&#x5E93;&#x540D;.sql==</li>
+<li>==&#x53EA;&#x5BFC;&#x51FA;&#x8868;&#x7ED3;&#x6784;&#xFF1A;mysqldump -u&#x7528;&#x6237;&#x540D; -p&#x5BC6;&#x7801; -d &#x6570;&#x636E;&#x5E93;&#x540D; &gt; &#x6570;&#x636E;&#x5E93;&#x540D;.sql==</li>
+<li>==&#x5BFC;&#x5165;&#x6570;&#x636E;&#xFF1A;mysql -u&#x7528;&#x6237;&#x540D; -p&#x5BC6;&#x7801; &#x6570;&#x636E;&#x5E93;&#x540D; &lt; &#x6570;&#x636E;&#x5E93;&#x540D;.sql==</li>
+<li>&#x5BFC;&#x5165;&#x5BFC;&#x51FA;&#x6570;&#x636E;<pre><code># &#x5BFC;&#x51FA;&#x6570;&#x636E;&#x5230;sql&#x6587;&#x4EF6;
+mysqldump -uroot -p&#x5BC6;&#x7801; &#x6570;&#x636E;&#x5E93;&#x540D; &gt; sql&#x6587;&#x4EF6;
+# &#x5BFC;&#x5165;&#x6570;&#x636E;
+mysql -uroot -p&#x5BC6;&#x7801; -P&#x7AEF;&#x53E3; -hIP -D&#x6570;&#x636E;&#x5E93;&#x540D; &lt; sql&#x6587;&#x4EF6;
+</code></pre></li>
+</ol>
+<h1 id="&#x4E09;-&#x4E3B;&#x952E;&#x3001;&#x5916;&#x952E;"><a name="&#x4E09;-&#x4E3B;&#x952E;&#x3001;&#x5916;&#x952E;" class="anchor-navigation-ex-anchor" href="#&#x4E09;-&#x4E3B;&#x952E;&#x3001;&#x5916;&#x952E;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E09; &#x4E3B;&#x952E;&#x3001;&#x5916;&#x952E;</h1>
+<p>==mysql&#x4E2D;&#x5904;&#x7406;&#x5B57;&#x7B26;&#x4E32;&#x65F6;&#xFF0C;&#x9ED8;&#x8BA4;&#x7B2C;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E0B;&#x6807;&#x4E3A;1==</p>
+<h2 id="1-&#x4E3B;&#x952E;"><a name="1-&#x4E3B;&#x952E;" class="anchor-navigation-ex-anchor" href="#1-&#x4E3B;&#x952E;"><i class="fa fa-link" aria-hidden="true"></i></a>1 &#x4E3B;&#x952E;</h2>
+<ol>
+<li>&#x4E3B;&#x952E;&#xFF08;primary key&#xFF09;&#x4E00;&#x5217;&#xFF08;&#x6216;&#x4E00;&#x7EC4;&#x5217;&#xFF09;&#xFF0C;&#x5176;&#x503C;&#x80FD;&#x591F;&#x552F;&#x4E00;&#x533A;&#x5206;&#x8868;&#x4E2D;&#x7684;&#x6BCF;&#x4E2A;&#x884C;&#x3002;
+==&#x552F;&#x4E00;&#x6807;&#x8BC6;&#x8868;&#x4E2D;&#x6BCF;&#x884C;&#x7684;&#x8FD9;&#x4E2A;&#x5217;&#xFF08;&#x6216;&#x8FD9;&#x7EC4;&#x5217;&#xFF09;&#x79F0;&#x4E3A;&#x4E3B;&#x952E;==&#x3002;</li>
+<li>&#x6CA1;&#x6709;&#x4E3B;&#x952E;&#xFF0C;&#x66F4;&#x65B0;&#x6216;&#x5220;&#x9664;&#x8868;&#x4E2D;&#x7279;&#x5B9A;&#x884C;&#x5F88;&#x56F0;&#x96BE;&#xFF0C;&#x56E0;&#x4E3A;&#x6CA1;&#x6709;&#x5B89;&#x5168;&#x7684;&#x65B9;&#x6CD5;&#x4FDD;&#x8BC1;&#x53EA;&#x6D89;&#x53CA;&#x76F8;&#x5173;&#x7684;&#x884C;</li>
+<li>==Innodb&#x5EFA;&#x8BAE;&#x4F7F;&#x7528;&#x4E0E;&#x4E1A;&#x52A1;&#x65E0;&#x5173;&#x7684;&#x81EA;&#x589E;ID&#x4F5C;&#x4E3A;&#x4E3B;&#x952E;==<h2 id="2-&#x5916;&#x952E;"><a name="2-&#x5916;&#x952E;" class="anchor-navigation-ex-anchor" href="#2-&#x5916;&#x952E;"><i class="fa fa-link" aria-hidden="true"></i></a>2 &#x5916;&#x952E;</h2>
+</li>
+<li>&#x53EF;&#x4EE5;&#x4F7F;&#x5F97;&#x4E24;&#x5F20;&#x8868;&#x5173;&#x8054;&#xFF0C;&#x4FDD;&#x8BC1;&#x6570;&#x636E;&#x7684;&#x4E00;&#x81F4;&#x6027;&#x548C;&#x5B9E;&#x73B0;&#x4E00;&#x4E9B;&#x7EA7;&#x8054;&#x64CD;&#x4F5C;</li>
+<li>&#x9632;&#x6B62;&#x65E0;&#x6548;&#x4FE1;&#x606F;&#x7684;&#x63D2;&#x5165;&#xFF0C;&#x5916;&#x952E;&#x7EA6;&#x675F;:&#x5BF9;&#x6570;&#x636E;&#x7684;&#x6709;&#x6548;&#x6027;&#x8FDB;&#x884C;&#x9A8C;&#x8BC1;</li>
+<li>&#x5728;&#x5B9E;&#x9645;&#x5F00;&#x53D1;&#x4E2D;,&#x5F88;&#x5C11;&#x4F1A;&#x4F7F;&#x7528;&#x5230;&#x5916;&#x952E;&#x7EA6;&#x675F;,&#x4F1A;&#x6781;&#x5927;&#x7684;&#x964D;&#x4F4E;&#x8868;&#x66F4;&#x65B0;&#x7684;&#x6548;&#x7387;<h2 id="3-&#x662F;&#x5426;&#x4F7F;&#x7528;&#x5916;&#x952E;"><a name="3-&#x662F;&#x5426;&#x4F7F;&#x7528;&#x5916;&#x952E;" class="anchor-navigation-ex-anchor" href="#3-&#x662F;&#x5426;&#x4F7F;&#x7528;&#x5916;&#x952E;"><i class="fa fa-link" aria-hidden="true"></i></a>3 &#x662F;&#x5426;&#x4F7F;&#x7528;&#x5916;&#x952E;</h2>
+<h6 id="&#x5916;&#x952E;&#x662F;&#x5426;&#x91C7;&#x7528;&#x770B;&#x4E1A;&#x52A1;&#x5E94;&#x7528;&#x573A;&#x666F;&#xFF0C;&#x4EE5;&#x53CA;&#x5F00;&#x53D1;&#x6210;&#x672C;"><a name="&#x5916;&#x952E;&#x662F;&#x5426;&#x91C7;&#x7528;&#x770B;&#x4E1A;&#x52A1;&#x5E94;&#x7528;&#x573A;&#x666F;&#xFF0C;&#x4EE5;&#x53CA;&#x5F00;&#x53D1;&#x6210;&#x672C;" class="anchor-navigation-ex-anchor" href="#&#x5916;&#x952E;&#x662F;&#x5426;&#x91C7;&#x7528;&#x770B;&#x4E1A;&#x52A1;&#x5E94;&#x7528;&#x573A;&#x666F;&#xFF0C;&#x4EE5;&#x53CA;&#x5F00;&#x53D1;&#x6210;&#x672C;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5916;&#x952E;&#x662F;&#x5426;&#x91C7;&#x7528;&#x770B;&#x4E1A;&#x52A1;&#x5E94;&#x7528;&#x573A;&#x666F;&#xFF0C;&#x4EE5;&#x53CA;&#x5F00;&#x53D1;&#x6210;&#x672C;</h6>
+</li>
+<li>&#x4E92;&#x8054;&#x7F51;&#x884C;&#x4E1A;&#xFF0C;&#x7528;&#x6237;&#x91CF;&#x5927;&#xFF0C;&#x5E76;&#x53D1;&#x91CF;&#x9AD8;&#xFF0C;&#x4E0D;&#x63A8;&#x8350;&#x4F7F;&#x7528;&#x5916;&#x952E;&#xFF0C;&#x628A;&#x6570;&#x636E;&#x4E00;&#x81F4;&#x6027;&#x7684;&#x63A7;&#x5236;&#x653E;&#x5230;&#x4E8B;&#x52A1;&#x4E2D;</li>
+<li>&#x4F20;&#x7EDF;&#x884C;&#x4E1A;&#xFF0C;&#x4EBA;&#x6570;&#x53EF;&#x63A7;&#xFF0C;&#x6D3B;&#x8DC3;&#x4EBA;&#x6570;&#x6709;&#x9650;&#xFF0C;&#x4F7F;&#x7528;&#x5916;&#x952E;&#xFF0C;&#x964D;&#x4F4E;&#x670D;&#x52A1;&#x5668;&#x6027;&#x80FD;&#xFF0C;&#x964D;&#x4F4E;&#x5F00;&#x53D1;&#x6210;&#x672C;<h4 id="4-&#x5916;&#x952E;&#x7684;&#x6027;&#x80FD;&#x95EE;&#x9898;"><a name="4-&#x5916;&#x952E;&#x7684;&#x6027;&#x80FD;&#x95EE;&#x9898;" class="anchor-navigation-ex-anchor" href="#4-&#x5916;&#x952E;&#x7684;&#x6027;&#x80FD;&#x95EE;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>4 &#x5916;&#x952E;&#x7684;&#x6027;&#x80FD;&#x95EE;&#x9898;</h4>
+</li>
+<li>&#x6570;&#x636E;&#x5E93;&#x9700;&#x8981;&#x7EF4;&#x62A4;&#x5916;&#x952E;&#x7684;&#x5185;&#x90E8;&#x7BA1;&#x7406;</li>
+<li>&#x5916;&#x952E;&#x7B49;&#x4E8E;&#x628A;&#x6570;&#x636E;&#x7684;&#x4E00;&#x81F4;&#x6027;&#x4E8B;&#x52A1;&#x5B9E;&#x73B0;&#xFF0C;&#x5168;&#x90E8;&#x4EA4;&#x7ED9;&#x6570;&#x636E;&#x5E93;&#x670D;&#x52A1;&#x5668;&#x5B8C;&#x6210;</li>
+<li>&#x6709;&#x4E86;&#x5916;&#x952E;&#xFF0C;&#x5F53;&#x505A;&#x4E00;&#x4E9B;&#x6D89;&#x53CA;&#x5916;&#x952E;&#x5B57;&#x6BB5;&#x7684;&#x589E;&#xFF0C;&#x5220;&#xFF0C;&#x66F4;&#x65B0;&#x64CD;&#x4F5C;&#x4E4B;&#x540E;&#xFF0C;&#x9700;&#x8981;&#x89E6;&#x53D1;&#x76F8;&#x5173;&#x64CD;&#x4F5C;&#x53BB;&#x68C0;&#x67E5;&#xFF0C;&#x800C;&#x4E0D;&#x5F97;&#x4E0D;&#x6D88;&#x8017;&#x8D44;&#x6E90;</li>
+<li>&#x5916;&#x952E;&#x8FD8;&#x4F1A;&#x56E0;&#x4E3A;&#x9700;&#x8981;&#x8BF7;&#x6C42;&#x5BF9;&#x5176;&#x4ED6;&#x8868;&#x5185;&#x90E8;&#x52A0;&#x9501;&#x800C;&#x5BB9;&#x6613;&#x51FA;&#x73B0;&#x6B7B;&#x9501;&#x60C5;&#x51B5;<h1 id="&#x56DB;&#x3001;mysql&#x914D;&#x7F6E;&#x6587;&#x4EF6;"><a name="&#x56DB;&#x3001;mysql&#x914D;&#x7F6E;&#x6587;&#x4EF6;" class="anchor-navigation-ex-anchor" href="#&#x56DB;&#x3001;mysql&#x914D;&#x7F6E;&#x6587;&#x4EF6;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x56DB;&#x3001;mysql&#x914D;&#x7F6E;&#x6587;&#x4EF6;</h1>
+</li>
+<li>mysql&#x547D;&#x4EE4;&#x9ED8;&#x8BA4;&#x52A0;&#x8F7D;&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF1A;==~/.my.cnf&#x3001; /etc/mysql/my.cnf&#x3001;/etc/my.cnf==</li>
+</ol>
+<pre><code># /root/.my.cnf
+[client]
+host = 192.168.210.68
+port = 16030
+user = root
+password = ouFo3bof53J1hqoTvrtnFMp7PP1DwCHM0hVGFjW1
+</code></pre><h1 id="&#x4E94;&#x3001;sql&#x8FDE;&#x63A5;join&#x67E5;&#x8BE2;"><a name="&#x4E94;&#x3001;sql&#x8FDE;&#x63A5;join&#x67E5;&#x8BE2;" class="anchor-navigation-ex-anchor" href="#&#x4E94;&#x3001;sql&#x8FDE;&#x63A5;join&#x67E5;&#x8BE2;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E94;&#x3001;SQL&#x8FDE;&#x63A5;(JOIN)&#x67E5;&#x8BE2;</h1>
+<h2 id="1-&#x6982;&#x8FF0;"><a name="1-&#x6982;&#x8FF0;" class="anchor-navigation-ex-anchor" href="#1-&#x6982;&#x8FF0;"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x6982;&#x8FF0;</h2>
+<ol>
+<li>SQL join &#x7528;&#x4E8E;&#x628A;&#x6765;&#x81EA;&#x4E24;&#x4E2A;&#x6216;&#x591A;&#x4E2A;&#x8868;&#x7684;==&#x884C;&#x7ED3;&#x5408;&#x8D77;&#x6765;==&#xFF0C;&#x57FA;&#x4E8E;&#x8FD9;&#x4E9B;&#x8868;&#x4E4B;&#x95F4;&#x7684;&#x5171;&#x540C;&#x5B57;&#x6BB5;&#x3002;</li>
+<li>&#x5C55;&#x793A;LEFT JOIN&#x3001;RIGHT JOIN&#x3001;INNER JOIN&#x3001;OUTER JOIN &#x76F8;&#x5173;&#x7684; 7 &#x79CD;&#x7528;&#x6CD5;&#x3002;
+<a href="https://note.youdao.com/yws/res/27933/0F0C5B66D31E449785CD07E9AAF9E35D" data-lightbox="8f4969e4-43c8-4ef8-9722-358fdf80f3f3" data-title="image" target="_blank"><img src="https://note.youdao.com/yws/res/27933/0F0C5B66D31E449785CD07E9AAF9E35D" alt="image"></a></li>
+<li>INNER JOIN&#xFF08;&#x5185;&#x8FDE;&#x63A5;&#xFF0C;&#x6216;&#x7B49;&#x503C;&#x8FDE;&#x63A5;&#xFF09;&#xFF1A;&#x83B7;&#x53D6;&#x4E24;&#x4E2A;&#x8868;&#x4E2D;&#x5B57;&#x6BB5;&#x5339;&#x914D;&#x5173;&#x7CFB;&#x7684;&#x8BB0;&#x5F55;</li>
+<li>LEFT JOIN&#xFF08;&#x5DE6;&#x8FDE;&#x63A5;&#xFF09;&#xFF1A;&#x83B7;&#x53D6;&#x5DE6;&#x8868;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x8BB0;&#x5F55;&#xFF0C;&#x53F3;&#x8868;&#x4E2D;&#x6CA1;&#x6709;&#x7684;&#x4E3A;None</li>
+<li>RIGHT JOIN&#xFF08;&#x53F3;&#x8FDE;&#x63A5;&#xFF09;&#xFF1A;&#x83B7;&#x53D6;&#x53F3;&#x8868;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x8BB0;&#x5F55;&#xFF0C;&#x5DE6;&#x8868;&#x4E2D;&#x6CA1;&#x6709;&#x7684;&#x4E3A;None</li>
+<li>FULL JOIN&#xFF1A;&#x5173;&#x952E;&#x5B57;&#x53EA;&#x8981;&#x5DE6;&#x8868;&#xFF08;table1&#xFF09;&#x548C;&#x53F3;&#x8868;&#xFF08;table2&#xFF09;&#x5176;&#x4E2D;&#x4E00;&#x4E2A;&#x8868;&#x4E2D;&#x5B58;&#x5728;&#x5339;&#x914D;&#xFF0C;&#x5219;&#x8FD4;&#x56DE;&#x884C;.</li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Mysql">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="02-mysql45讲.html" class="navigation navigation-next " aria-label="Next page: mysql45讲">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"mysql基础","level":"1.4.1.1","depth":3,"next":{"title":"mysql45讲","level":"1.4.1.2","depth":3,"path":"02-Database/01-Mysql/02-mysql45讲.md","ref":"02-Database/01-Mysql/02-mysql45讲.md","articles":[]},"previous":{"title":"Mysql","level":"1.4.1","depth":2,"path":"02-Database/01-Mysql/README.md","ref":"02-Database/01-Mysql/README.md","articles":[{"title":"mysql基础","level":"1.4.1.1","depth":3,"path":"02-Database/01-Mysql/01-mysql基础.md","ref":"02-Database/01-Mysql/01-mysql基础.md","articles":[]},{"title":"mysql45讲","level":"1.4.1.2","depth":3,"path":"02-Database/01-Mysql/02-mysql45讲.md","ref":"02-Database/01-Mysql/02-mysql45讲.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["advanced-emoji","toggle-chapters","theme-comscore","splitter","github","github-buttons@2.1.0","-sharing","-lunr","-search","search-plus","anchor-navigation-ex-toc@0.0.9","editlink","fontsettings","copy-code-button","lightbox"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/yalezhangk/blog"},"editlink":{"label":"编辑本页","multilingual":false,"base":"https://github.com/yalezhangk/blog/edit/master/README.md"},"splitter":{},"anchor-navigation-ex-toc":{"associatedWithSummary":true,"float":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showLevel":false},"fontsettings":{"family":"sans","size":2,"theme":"white"},"highlight":{},"lightbox":{"jquery":true,"sameUuid":false},"theme-comscore":{},"github-buttons":{"repo":"yalezhangk/blog","types":["star"],"size":"small"},"copy-code-button":{},"advanced-emoji":{"embedEmojis":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{},"search-plus":{}},"theme":"default","author":"yalezhang","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":18,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"yalezhang de blog","links":{"sharing":{"all":null,"facebook":null,"google":null,"twitter":null,"weibo":null}},"gitbook":"*","description":"a simple pythoner","extension":null},"file":{"path":"02-Database/01-Mysql/01-mysql基础.md","mtime":"2021-12-20T08:42:23.756Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-12-20T08:43:22.548Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-editlink/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lightbox/js/lightbox.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+
